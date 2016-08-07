@@ -19,7 +19,7 @@ exports.decorateConfig = config => {
     borderColor: '#D8DBE2',
     cursorColor: '#D8DBE2',
     fontSize:14,
-    FontFamily:'Fira Code, Menlo, DejaVu Sans Mono, Lucida Console, monospace',
+    fontFamily:'Fira Code, Menlo, DejaVu Sans Mono, Lucida Console, monospace',
     colors: [
       black,
       red,
@@ -48,6 +48,9 @@ exports.decorateConfig = config => {
       }
       .tab_active:before {
         border-color: #2A99CF;
+      }
+      ::-webkit-scrollbar { 
+        display: none !important; 
       }
     `
   });
